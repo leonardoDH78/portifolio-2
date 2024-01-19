@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #7C93C3;
+    color: #FFFBF5;
+}
+
+.cabecalho{
+    padding: 0.8% 0% 0.8% 20%;
+    margin: 3% 20.25% 0% 20.25%;
+    background-color: #232D3F;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.estrutura{
+    padding: 0.8% 0% 0.8% 0%;
+    margin: 0% 20.25%;
+    background-color: #0F0F0F;
+    display: flex;
+    width: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center;
+}
+
+.cabecalho__texto{
+    align-items: center;
+    color: #3FBF7F;
+}
+
+.estrutura__principal{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 5%;
+    gap: 40px;
+}
+
+.estrutura__secundaria{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    gap: 40px;
+}
+
+.caixa{
+    width: 150%;
+    height: 8%;
+    border-radius: 25px;
+    
+}
+
+p{
+    font-size: 150%;
+}
+
+.opcao{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.butao{
+    width: 25%;
+    border-radius: 50px;
+}
+
+.butao:hover{
+    color: aquamarine;
+}
+
+
+
